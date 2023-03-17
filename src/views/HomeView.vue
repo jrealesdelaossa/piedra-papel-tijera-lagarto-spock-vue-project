@@ -22,7 +22,10 @@ export default {
 
 <style scoped>
 .home {
-  height: 1200px;
+  height: 90vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .title {
@@ -33,15 +36,17 @@ h1 {
   font-size: 2rem;
   margin-bottom: 20px;
   text-align: center;
+  width: 90vw;
 }
 
 p {
+  width: 80vw;
   margin-bottom: 15px;
   font-size: 2rem;
 }
 
 .botones {
-  width: 720px;
+  width: 100vw;
   height: auto;
   margin-top: 120px;
   display: flex;

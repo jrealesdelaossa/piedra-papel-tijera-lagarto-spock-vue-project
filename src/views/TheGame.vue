@@ -247,31 +247,35 @@ p {
   font-size: 2rem;
 }
 
+.contador {
+  font-size: 10rem;
+}
+
 @media (max-width: 768px) {
   .contenedor-botones {
-    width: 720px;
+    width: 95%;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
   .boton {
-    width: 60%;
+    width: 70%;
     height: 80px;
-    font-size: 3rem;
+    font-size: 2rem;
     margin: 16px 0;
     border: none;
     border-radius: 20px;
   }
 
   .contenedor-boton-aceptar {
-    width: 720px;
+    width: 100%;
     height: auto;
     margin-bottom: 120px;
   }
 
   .boton-aceptar {
-    width: 60%;
+    width: 70%;
     height: 80px;
     font-size: 3rem;
     margin: 16px 0;
@@ -281,7 +285,7 @@ p {
   }
 
   .contenedor-boton-volver-a-jugar {
-    width: 720px;
+    width: 100%;
     height: auto;
   }
 
@@ -297,13 +301,24 @@ p {
 
   .tablero {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     font-size: 8rem;
   }
 
+
+}
+
+@media (max-width: 336px) {
   .contador {
-    font-size: 10rem;
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 415px) {
+  .boton-volver-a-jugar {
+    height: 80px;
+    font-size: 2rem;
   }
 }
 </style>
